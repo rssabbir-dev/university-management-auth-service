@@ -2,7 +2,6 @@ import cors from 'cors';
 import express, { Application, NextFunction, Request, Response } from 'express';
 import globalErrorHandler from './app/middlewares/globalErrorHandler';
 import { UserRoutes } from './app/modules/users/user.route';
-import ApiError from './errors/ApiError';
 const app: Application = express();
 
 // using cors
@@ -15,8 +14,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/api/v1/users', UserRoutes);
 
 //testing
-// app.get('/', (req: Request, res: Response, next: NextFunction) => {
-//     throw new ApiError(500, 'You are an error!');
+// app.get('/', async (req: Request, res: Response, next: NextFunction) => {
+//     res.send('hello');
 // });
 
 app.use(globalErrorHandler);
