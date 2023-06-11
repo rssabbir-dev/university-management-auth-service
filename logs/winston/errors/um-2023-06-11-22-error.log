@@ -1,0 +1,36 @@
+Sun Jun 11 2023 22:51:59 [UM] error: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "role"
+    ],
+    "message": "'role' is required!"
+  }
+]
+Sun Jun 11 2023 22:51:59 [UM] error: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "role"
+    ],
+    "message": "'role' is required!"
+  }
+]
+Sun Jun 11 2023 22:54:13 [UM] error: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "role"
+    ],
+    "message": "'role' is required!"
+  }
+]
